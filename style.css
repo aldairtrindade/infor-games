@@ -1,0 +1,155 @@
+@charset "UTF-8";
+
+:root{
+    --cor0: #EADFFF;
+    --cor1: #C2BBFF;
+    --cor2: #9191FF;
+    --cor3: #7772FF;
+    --cor4: #4542FF;
+    --cor5: #0000FF;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-image: url('imagens/fundo_pq.jpg');
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgray;
+    margin: 0px;
+    margin-bottom: 15px;
+}
+
+header{
+    background-image: linear-gradient(to bottom, var(--cor0), var(--cor5));
+    padding-top: 15px;
+    min-height: 100px;
+    text-align: center;
+}
+header > h1{
+    font-family:'cursive';
+    font-weight: bold;
+    font-size: 3em;
+    color: white;
+    text-shadow: 1.5px 1.5px 2px rgba(14, 14, 14, 0.292);
+    margin-bottom: 10px;
+}
+
+header p{
+    text-align: center;
+    color: #EADFFF;
+}
+
+nav{
+    padding: 30px;
+    padding-bottom: 10px;
+}
+
+nav > a{
+    text-decoration: none;
+    color: var(--cor0);
+    padding: 10px;
+    font-weight: bold;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.088);
+    border-radius: 2px;
+    transition-duration: 0.1s;
+}
+
+a:hover{
+    background-color: var(--cor2);
+    color: #000089;
+}
+
+main{
+    color: white;
+    padding: 10px;
+    padding-top: 0px;
+    margin: 10px;
+    min-width: 280px;
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+main > img{
+    width: 98.5%;
+    min-width: 100px;
+    padding-left: 5px;
+    border-radius: 0px 0px 4px 0px;
+}
+
+main article img{
+    width: auto;
+    min-width: 100px;
+}
+
+.caixas{
+    display: flex;
+}
+
+.box{
+    padding: 3px;
+    margin: auto;
+    width: auto;
+}
+
+article{
+    background-color: rgb(236, 234, 234);
+    color: black;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 0px 5px 5px 0px;
+}
+
+article h2{
+    background-image: linear-gradient(to right, var(--cor4), transparent);
+    color: white;
+    font-weight: normal;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+article p{
+    text-align: justify;
+}
+
+.ofertas{
+    display: flex;
+}
+
+.produtos{
+    padding: 3px;
+    margin: auto;
+    width: auto;
+    background-color: rgb(203, 202, 202);
+}
+
+.gamehouse{
+    display: flex;
+}
+
+.gh{
+    margin: auto;
+    width: auto;
+}
+
+article p{
+    padding-left: 10px;
+}
+
+article ul{
+    padding-left: 30px;
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+
+footer > p{
+    margin: 0px;
+}
