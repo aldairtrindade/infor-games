@@ -16,14 +16,13 @@
 
 body{
     background-image: url('imagens/fundo_pq.jpg');
+    background-repeat: repeat;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: lightgray;
     margin: 0px;
     margin-bottom: 15px;
 }
 
 header{
-    background-image: linear-gradient(to bottom, var(--cor0), var(--cor5));
     padding-top: 15px;
     min-height: 100px;
     text-align: center;
